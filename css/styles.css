@@ -471,12 +471,15 @@ img{
 }
 
 .svg-element{
-    align-items: center;
-    justify-content: center;
     height: 112px;
     background-color: var(--Light);
     border-radius: 4px;
     margin-bottom: 8px;;
+}
+
+.icon-element{
+    align-items: center;
+    justify-content: center;
 }
 
 
