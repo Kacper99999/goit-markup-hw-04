@@ -435,7 +435,6 @@ img{
     display: flex;
     align-items: baseline;
     
-    
 }
 
 .img-person{
@@ -540,20 +539,24 @@ img{
 }
 
 
-.social-media-parameters:hover{
+.social-media-parameters:hover,
+.icon:hover{
     background-color: var(--Pressed-state);
 
 }
 
-.social-media-parameters:focus{
+.social-media-parameters:focus,
+.icon:focus{
     background-color: var(--Pressed-state);
 }
 
-.social-media-footer:hover{
+.social-media-footer:hover,
+.icon:hover{
     background-color: var(--Success);
 }
 
-.social-media-footer:focus{
+.social-media-footer:focus,
+.icon:focus{
     background-color: var(--Success);
 }
 
