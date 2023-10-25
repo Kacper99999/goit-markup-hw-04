@@ -434,6 +434,7 @@ img{
 .flex-footer{
     display: flex;
     align-items: baseline;
+    gap:120px;
     
 }
 
