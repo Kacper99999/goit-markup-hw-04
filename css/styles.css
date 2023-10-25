@@ -528,5 +528,14 @@ img{
     gap: 24px;
 }
 
+.icon:hover{
+    background-color: var(--Pressed-state);
+
+}
+
+.icon:focus{
+    background-color: var(--Pressed-state);
+}
+
 
 /*------------------------------------------------*/
