@@ -540,23 +540,21 @@ img{
 
 
 .social-media-parameters:hover,
-.icon:hover{
+.customer{
     background-color: var(--Pressed-state);
 
 }
 
 .social-media-parameters:focus,
-.icon:focus{
+.customer{
     background-color: var(--Pressed-state);
 }
 
-.social-media-footer:hover,
-.icon:hover{
+.social-media-footer:hover{
     background-color: var(--Success);
 }
 
-.social-media-footer:focus,
-.icon:focus{
+.social-media-footer:focus{
     background-color: var(--Success);
 }
 
