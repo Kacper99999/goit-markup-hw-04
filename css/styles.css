@@ -303,7 +303,7 @@ img{
 }
 
 .container-image{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
