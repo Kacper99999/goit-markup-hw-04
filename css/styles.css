@@ -381,6 +381,7 @@ img{
 
 .icon{
     fill: var(--Light);
+    --color:currentColor;
 }
 
 .icon-color{
