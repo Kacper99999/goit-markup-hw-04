@@ -546,8 +546,7 @@ img{
     background-color: var(--Pressed-state);
 }
 
-.social-media-footer:hover,
-.icon-f:hover{
+.social-media-footer:hover{
     background-color: var(--Success);
 }
 
