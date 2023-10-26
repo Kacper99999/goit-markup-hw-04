@@ -390,8 +390,6 @@ img{
 }
 
 .foot{
-    display: inline-block;
-    margin-bottom: 16px;
     margin-right: 120px;
 
     
@@ -539,14 +537,12 @@ img{
 }
 
 
-.social-media-parameters:hover,
-.customer{
+.social-media-parameters:hover{
     background-color: var(--Pressed-state);
 
 }
 
-.social-media-parameters:focus,
-.customer{
+.social-media-parameters:focus{
     background-color: var(--Pressed-state);
 }
 
