@@ -51,7 +51,7 @@ img{
     letter-spacing: 0.02em;
     color: var(--Dark);
     text-decoration: none;
-    padding: 24px 0;
+    display: block;
     
 }
 
@@ -77,8 +77,7 @@ img{
     margin-bottom: 16px;
 }
 
-.empty-link:hover,
-.link:hover{
+.empty-link:hover{
     color:var(--Pressed-state)
 }
 
@@ -86,9 +85,18 @@ img{
     color: var(--Pressed-state);
 }
 
-.empty-link:focus,
-.link:focus{
+.empty-link:focus{
     color:var(--Pressed-state)
+}
+
+.link:hover{
+    color:var(--Pressed-state);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.link:focus{
+    color:var(--Pressed-state);
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /*------------------------------------------------*/
@@ -105,6 +113,7 @@ img{
 
 .button:hover{
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .main-button:focus,
@@ -115,6 +124,7 @@ img{
 
 .button:focus{
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button:active{
