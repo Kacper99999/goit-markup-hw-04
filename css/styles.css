@@ -554,5 +554,15 @@ img{
     background-color: var(--Success);
 }
 
+.customer:hover{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
+}
+
+.customer:focus{
+    border-color: var(--Pressed-state);
+    color: var(--Pressed-state);
+}
+
 
 /*------------------------------------------------*/
