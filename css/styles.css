@@ -417,7 +417,7 @@ img{
 }
 
 .social-media-footer:focus{
-    background-color: currentColor;
+    background-color: var(--Success);
 }
 
 .customer:hover{
