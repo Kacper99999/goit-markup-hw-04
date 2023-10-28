@@ -425,6 +425,10 @@ img{
     color: var(--Pressed-state);
 }
 
+.icon-color:hover{
+    color: var(--Pressed-state);
+}
+
 .customer:focus{
     border-color: var(--Pressed-state);
     color: var(--Pressed-state);
