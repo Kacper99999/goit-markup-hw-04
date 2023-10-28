@@ -378,7 +378,7 @@ img{
 }
 
 .icon-color{
-    color: currentColor;
+    fill: currentColor;
 }
 
 .icons-customers{
@@ -594,6 +594,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Subtle-Text);
     
 
 }
