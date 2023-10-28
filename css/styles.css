@@ -325,7 +325,7 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin:0;
+    margin:0 auto;
 }
 
 /*------------------------------------------------*/
@@ -355,6 +355,7 @@ img{
     justify-content: center;
     gap:24px;
     list-style: none;
+    margin-top: 8px;
 }
 
 .social-media-element{
@@ -377,7 +378,7 @@ img{
 }
 
 .icon-color{
-    fill: currentColor;
+    
 }
 
 .icons-customers{
@@ -515,7 +516,6 @@ img{
 .foot{
     margin-right: 120px;
 
-    
 }
 
 .div-foot{
@@ -594,7 +594,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--Subtle-Text);
+    
 
 }
 
