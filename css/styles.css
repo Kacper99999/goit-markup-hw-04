@@ -56,12 +56,6 @@ img{
 }
 
 .link-image{
-    font-weight: 500;
-    color:var(--Dark);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--Dark);
     text-decoration: none;
     display: block;
 }
@@ -103,12 +97,10 @@ img{
 }
 
 .link-image:hover{
-    color:var(--Pressed-state);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .link-image:focus{
-    color:var(--Pressed-state);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -333,6 +325,7 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin:0;
 }
 
 /*------------------------------------------------*/
@@ -445,6 +438,15 @@ img{
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
+}
+
+.text-two{
+    font-weight: 500;
+    color:var(--Dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
 }
 
 
